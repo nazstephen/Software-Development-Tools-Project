@@ -23,3 +23,6 @@ This project is an interactive web application built with Streamlit, designed fo
 - notebooks/EDA.ipynb: Jupyter notebook for exploratory data analysis.
 - requirements.txt: List of dependencies required by the project.
 - .streamlit/config.toml: Configuration file for Streamlit deployment.
+
+## Access the Application
+You can access the deployed application at the following link: https://software-development-tools-project-ia76.onrender.com
