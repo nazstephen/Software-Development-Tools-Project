@@ -28,7 +28,7 @@ This project is an interactive web application built with Streamlit, designed fo
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/nazstephen/Software-Development-Tools-Project.git
     cd <repository-directory>
     ```
 
