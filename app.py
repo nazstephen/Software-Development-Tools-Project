@@ -18,21 +18,23 @@ except FileNotFoundError:
 #---------------------------------------------
 
 # cleaning up 'model_year' column
-vehicles_df['model_year'].fillna(0, inplace=True)
+# filling in the missing values in 'model_year' with a median for a group based on 'model'
+vehicles_df['model_year'] = vehicles_df['model_year'].fillna(vehicles_df.groupby(['model'])['model_year'].transform('median'))
 vehicles_df['model_year'] = vehicles_df['model_year'].astype(int)
 vehicles_df['model_year'] = vehicles_df['model_year'].astype(str)
-vehicles_df['model_year'].replace('0', 'unknown', inplace=True)
 
 #---------------------------------------------
 
 # cleaning up 'cylinders' column
-vehicles_df['cylinders'].fillna(-1, inplace=True)  # Use -1 as placeholder for unknown
+# filling in the missing values in 'cylinders' with a median for a group based on 'model'
+vehicles_df['cylinders'] = vehicles_df['cylinders'].fillna(vehicles_df.groupby(['model'])['cylinders'].transform('median'))
 vehicles_df['cylinders'] = vehicles_df['cylinders'].astype(int)
 
 #---------------------------------------------
 
 # cleaning up 'odometer' column
-vehicles_df['odometer'].fillna(-1, inplace=True)
+# filling in the missing values in 'odometer' with a median for a group based on 'model'
+vehicles_df['odometer'] = vehicles_df['odometer'].fillna(vehicles_df.groupby(['model'])['odometer'].transform('median'))
 
 #---------------------------------------------
 
