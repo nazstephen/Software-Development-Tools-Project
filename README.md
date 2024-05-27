@@ -24,5 +24,24 @@ This project is an interactive web application built with Streamlit, designed fo
 - requirements.txt: List of dependencies required by the project.
 - .streamlit/config.toml: Configuration file for Streamlit deployment.
 
+  ## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+
+2. Install the required Python packages:
+    ```bash
+    pip install streamlit scipy pandas
+    ```
+
+## Usage
+
+1. Run the Streamlit application:
+    ```bash
+    streamlit r
+
 ## Access the Application
 You can access the deployed application at the following link: https://software-development-tools-project-ia76.onrender.com
