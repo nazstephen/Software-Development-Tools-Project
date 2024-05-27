@@ -7,7 +7,7 @@ import plotly.express as px
 # reading the file
 try:
     # Try to read the CSV file from the local path.
-    vehicles_df = pd.read_csv('/Users/benjaminstephen/Documents/TripleTen/Sprint_4/Software_Development_Tools_Project/notebooks/vehicles_us.csv')
+    vehicles_df = pd.read_csv('/Users/benjaminstephen/Documents/TripleTen/Sprint_4/Software-Development-Tools-Project/notebooks/vehicles_us.csv')
 except FileNotFoundError:
     try:
         # Try to read the CSV file from the server path
