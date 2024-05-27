@@ -41,7 +41,7 @@ This project is an interactive web application built with Streamlit, designed fo
 
 1. Run the Streamlit application:
     ```bash
-    streamlit r
+    streamlit run app.py
     ```
 
 2. Open the provided URL (usually `http://localhost:10000`) in your web browser.
