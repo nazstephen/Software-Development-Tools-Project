@@ -42,6 +42,9 @@ This project is an interactive web application built with Streamlit, designed fo
 1. Run the Streamlit application:
     ```bash
     streamlit r
+    ```
+
+2. Open the provided URL (usually `http://localhost:10000`) in your web browser.
 
 ## Access the Application
 You can access the deployed application at the following link: https://software-development-tools-project-ia76.onrender.com
