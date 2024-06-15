@@ -1,4 +1,4 @@
-# Software Development Tools: Project
+# Software Development Tools Project
 
 ## Project description
 This project is an interactive web application built with Streamlit, designed for analyzing a car advertisement dataset. It provides users with a platform to explore various attributes of cars, including condition, model year, price, and mileage. Through features like histograms and scatter plots, users can gain insights into relationships between these attributes, such as understanding the distribution of car conditions across model years and the impact of mileage on car prices.
